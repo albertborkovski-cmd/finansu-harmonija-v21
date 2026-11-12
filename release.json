@@ -1,20 +1,20 @@
 {
-  "version": "21.0.1",
+  "version": "21.0.2",
   "releaseDate": "2026-11-12",
   "frozen": true,
-  "sourceCommit": "86b744c149481b34d40a5d7149aff308cf88bf19",
-  "sourceTag": "v21.0.1",
+  "sourceCommit": "22a7da16289b6b038b1fc8733431f16c83a75d11",
+  "sourceTag": "v21.0.2",
   "sourceOrigin": "Latest V20 working-tree snapshot based on 47f86488b21f685566590d96763f13cceef7486a, with V21 release metadata only.",
   "sourceArchive": "source-v21.zip",
-  "sourceArchiveSha256": "a940e6b26773b09f727e5b011820c19b757076e162ec8fcad4b5eca67f4ea02a",
-  "sourceFileCount": 457,
+  "sourceArchiveSha256": "a9225406065e91aab4c0906ba25648d0e0b0fab5ec13bf62a79eed599f2f34e8",
+  "sourceFileCount": 458,
   "nextDevelopmentVersion": "V22",
   "checks": {
     "typecheck": "passed",
     "build": "passed; empty envDir and no VITE environment variables",
     "targetedTests": {
-      "total": 5,
-      "passed": 5,
+      "total": 13,
+      "passed": 13,
       "failed": 0
     },
     "previousFullSuite": {
@@ -45,12 +45,12 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "assets/CompanyWarehouseView-g-juLew7.js",
-      "sha256": "bab650c10b1649c6f9052bf15cd2afff72388e634dfdb55b7e11e643eefd24fd"
+      "path": "assets/CompanyWarehouseView-CiS0OB4R.js",
+      "sha256": "27e86afc5647453feba8078a5466eea6c19ce52c6c853ae59b94d0a54cece9a7"
     },
     {
-      "path": "assets/FinancialStatementItemsView-BBzyHB4T.js",
-      "sha256": "66f0670a7d68d3fc6cd915c8472aae7438b6e012ba8b3380ee89fffe8ec03bc4"
+      "path": "assets/FinancialStatementItemsView-CokczjWT.js",
+      "sha256": "7a3a8fc84e4e36ab581d96684b0474f4a95f14dc57507f340812fee8f159e20e"
     },
     {
       "path": "assets/documentActionHistory-BSWadRCQ.js",
@@ -61,16 +61,16 @@
       "sha256": "b4f3add809a6d59f46260e8fd56cab240f3153def977386b230a839e8cb0b281"
     },
     {
-      "path": "assets/index-BZyjJ9f4.css",
-      "sha256": "de138bb56a8ffed910e301b8045a3f2884e8bc61fad1a5278764ec58b9209fb0"
+      "path": "assets/index-1VRyrPQ9.js",
+      "sha256": "e5998fb9d8cccb86c8edf6af89b4d0cd3b90218a3815bc6cf1ce4d849640c35c"
     },
     {
-      "path": "assets/index-CCUeA_cU.js",
-      "sha256": "026165a7bef701c646aead9e88b1b6d93e71459eebd8f230df4b8fe55e9d4a18"
+      "path": "assets/index-BQ0ToK5P.css",
+      "sha256": "055032bd5fb4c0815f86f3aef7c01967b1bf6436c2293400eea8480f7df0abc0"
     },
     {
-      "path": "assets/index.es-DUsNbLuc.js",
-      "sha256": "8b93e2ca0df9650d2c1282e348fd594893e7a06b140332ab74429a53cc21b54c"
+      "path": "assets/index.es-c586eB6J.js",
+      "sha256": "5f29ef27e077f5edf8687448e6df73224dad18657f071d8b02afc9a93f2f5dfb"
     },
     {
       "path": "assets/pdf.worker.min-yatZIOMy.mjs",
@@ -158,11 +158,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "9887250b8a20a3ba27055024811cb17ff43aee97fed89e9be1f50aec21d2685d"
+      "sha256": "63ab4dec981049b35cbfbe144f28524cf7e5985041481f08b3bc21220ed70da2"
     }
   ],
-  "previousArtifactCommit": "69ac4d9989da9ca2d1b7aeab781f61407108f267",
+  "previousArtifactCommit": "2cae915354f1e51d59c788e83620f6cf3b2f6930",
   "changes": [
-    "User-authorized hotfix: remove only the Demo label beside Bank accounts Connection status. Preserve all connection and synchronization behavior."
+    "User-authorized hotfix: remove the Companies Bulk actions button/menu and unreachable local UI; preserve company records, creation, filters, selection and existing accountant assignments."
   ]
 }

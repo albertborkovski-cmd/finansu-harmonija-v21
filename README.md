@@ -6,6 +6,8 @@ Testavimas: https://albertborkovski-cmd.github.io/finansu-harmonija-v21/
 
 V21.0.1 (2026-11-12): naudotojo prašymu pašalinta tik „Demo“ žyma Bank accounts stulpelyje Connection status. Būsenų ir sinchronizavimo logika nepakeista. Pradinė v21 žyma išsaugota; tolesnis tobulinimas vyksta V22.
 
+V21.0.2 (2026-11-12): naudotojo prašymu iš „Companies“ pašalintas „Bulk actions“ mygtukas ir jo meniu. Įmonių duomenys, filtrai, žymėjimas, kūrimas ir esami buhalterių priskyrimai nepakeisti.
+
 ## Paleidimas
 
 ```bash

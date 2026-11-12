@@ -9,11 +9,11 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "723e0aec18d03719b1d40253392b90a746933a9a469040e256b1b94386fa04e7"
+    "sha256": "1dc02bcf5a2880a91deb90eaad69e927577926752fdec087d4ee643dfe801ab3"
   },
   {
     "path": "README.md",
-    "sha256": "1d01e12f1eb7f37d461ef8b12671e23e7009cb47313bec04396ab630e9f30b67"
+    "sha256": "96b9bf4fff3098a9217c80dd9fce06a85e6d0c52080d509045b000ceed2f4a69"
   },
   {
     "path": "docs/reconciliation-test-mode.md",
@@ -29,11 +29,11 @@
   },
   {
     "path": "package-lock.json",
-    "sha256": "894e52e7311525a9ec6e739e933cad63c4a84be3fc3dc7a75421bae3c990f687"
+    "sha256": "3489c5fb387eb69564fd9675060f8606760937f1eb745c54f24d5788ce76a1e9"
   },
   {
     "path": "package.json",
-    "sha256": "02457c0dd2febef89d391563d4e90c4ba8d00b776f8d2f1947ea989563352b3a"
+    "sha256": "788210dd1b3a12d036745b851dac2ede06aa2109b17bb2e0dffb0890a22676e4"
   },
   {
     "path": "postcss.config.js",
@@ -173,7 +173,7 @@
   },
   {
     "path": "src/components/Companies.tsx",
-    "sha256": "9eb4fd344d86e85e0e50c0594e782b36a751034f8a6647bf77b150b7fd7f739e"
+    "sha256": "49001d3b10f7e729f56d3ef270f73af2b7ac7e49e7fa21c7e744c126845719a4"
   },
   {
     "path": "src/components/CompanyAccessPanel.tsx",
@@ -1422,6 +1422,10 @@
   {
     "path": "tests/column-settings-groups.test.mjs",
     "sha256": "cdd454a0ac449ba2864f3426dca0e96d1863e8e54580110b1e810a46273c5108"
+  },
+  {
+    "path": "tests/companies-header-actions.test.mjs",
+    "sha256": "10136a99b98a3744f284513661260bfb75c9850514046f7cb63f281130fa0db7"
   },
   {
     "path": "tests/company-bank-account-display.test.mjs",
