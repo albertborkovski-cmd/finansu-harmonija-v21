@@ -1,0 +1,162 @@
+{
+  "version": "21.0.0",
+  "releaseDate": "2026-11-12",
+  "frozen": true,
+  "sourceCommit": "ff262afb73511fb335b3d8915d6d8894de764919",
+  "sourceTag": "v21",
+  "sourceOrigin": "Latest V20 working-tree snapshot based on 47f86488b21f685566590d96763f13cceef7486a, with V21 release metadata only.",
+  "sourceArchive": "source-v21.zip",
+  "sourceArchiveSha256": "404261411236a500014bab9776cf71c33d187bd3f4f3ede63dfa7f777a75766e",
+  "sourceFileCount": 457,
+  "nextDevelopmentVersion": "V22",
+  "checks": {
+    "typecheck": "passed",
+    "build": "passed; empty envDir and no VITE environment variables",
+    "targetedTests": {
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "fullTests": {
+      "total": 1100,
+      "passed": 1082,
+      "failed": 18,
+      "notes": [
+        "1 document-processing-status static test still expects the removed Overdue color literal.",
+        "7 general-reference-catalogs fixture failures: missing documentResponsibleUsers mock.",
+        "4 notification-chat-navigation harness failures: import.meta evaluated as CommonJS.",
+        "2 module-loading harness failures: notification-details-panel and reconciliation-gl-dialog.",
+        "4 reconciliation-received-dialog harness failures: missing useWorkspaceExpansion mock."
+      ]
+    },
+    "browser": "Deployment startup and asset checks performed after upload; not a complete regression test."
+  },
+  "limitations": [
+    "Frontend demonstration only; no secure backend authentication or shared production database.",
+    "Bank connection, payment sending, accounting transfer, OCR and email APIs are not connected.",
+    "Local .env, shared-data files, credentials and node_modules are excluded.",
+    "Pages versions on the same domain may share browser storage; use a separate browser profile for isolated testing."
+  ],
+  "artifacts": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/CompanyWarehouseView-DtF9AXft.js",
+      "sha256": "91bb046474464dad3774ec0903a966ad25efec1c857e9374c29dbc1849c4eda4"
+    },
+    {
+      "path": "assets/FinancialStatementItemsView-B97ZXnmm.js",
+      "sha256": "12d77474c87233b79a0bc6703731ae91ba0071f9dea32663b8be42433c95180c"
+    },
+    {
+      "path": "assets/documentActionHistory-BSWadRCQ.js",
+      "sha256": "6c4a1e7a6a9c9a5baf9f28cd983570540ce134e48b0d99511fdfbf05a5b56ecd"
+    },
+    {
+      "path": "assets/html2canvas.esm-CBrSDip1.js",
+      "sha256": "b4f3add809a6d59f46260e8fd56cab240f3153def977386b230a839e8cb0b281"
+    },
+    {
+      "path": "assets/index-BZyjJ9f4.css",
+      "sha256": "de138bb56a8ffed910e301b8045a3f2884e8bc61fad1a5278764ec58b9209fb0"
+    },
+    {
+      "path": "assets/index-VMVbBjOn.js",
+      "sha256": "6c028ae50367632ba1219ac9d74036b61522e00cc01a5ebeaeaf86e88f763bbd"
+    },
+    {
+      "path": "assets/index.es-DD22KXmN.js",
+      "sha256": "45987a47517bf868d8c811624e68d527e497e1ef368dba60cd1bfa9e640e7c04"
+    },
+    {
+      "path": "assets/pdf.worker.min-yatZIOMy.mjs",
+      "sha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36"
+    },
+    {
+      "path": "assets/purify.es-BnINGy_Y.js",
+      "sha256": "e1a7db8fd26de50139d42c7758c05111b45ee109c317b77816015927a8e01f7e"
+    },
+    {
+      "path": "image copy copy copy copy.png",
+      "sha256": "1bcb345d9a399c40f6a5cef40f432710413cf474bb43af1d83acaca3a1651311"
+    },
+    {
+      "path": "image copy copy copy.png",
+      "sha256": "969e70faeb718245b9dc9f254ae635ca4d84cce5fdc03d98bd83ebc9d419d54d"
+    },
+    {
+      "path": "image copy copy.png",
+      "sha256": "c0f01ddb60253804dd96f31accabf071226a94fb40771c4a441a9cce8a0a1414"
+    },
+    {
+      "path": "image copy.png",
+      "sha256": "0127df34479e357f8b7a7e8c4893ae1534040dfc8000451f58dc3b7644feaaa0"
+    },
+    {
+      "path": "image.png",
+      "sha256": "9a0193c47cfb318f9f2486c4ed6203dad90fb4d934a42f897733e45d400fed69"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy copy copy copy copy copy.png",
+      "sha256": "1cd8b3f76826b51c479cecb38d4222a4c3198b5010321711c21126833d1cc1f4"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy copy copy copy copy.png",
+      "sha256": "b9f1e92214f3a1704389200faf8ab81c5a2d865b2ce737cebca96ff46c55f5eb"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy copy copy copy.png",
+      "sha256": "d9868c806cdeb2259511272bdb26b51481d37a4f3ae8f3ba0d3674443e1518b9"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy copy copy.png",
+      "sha256": "9f3f7d86efb216941c8981545534bb4b8074619617ff959819ebdca1fcfea6ca"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy copy.png",
+      "sha256": "6d01bfb856ddbb65920d2a9596339354a37dbcfcee695ebd2f595bad8ebf7645"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy.png",
+      "sha256": "d16fe9c6470037a8c33cfb8f143d050475b060ecd9d49928adf67592995c9fcb"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy.png",
+      "sha256": "c15d9e12ef9a27a73dc62d49b43da230b663c61f82bde50e9cc0aaaffe11c998"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy.png",
+      "sha256": "06a8bd3647cdd3f135d79da62e820e014915e3fe8dd217a0b9a510eeb31c4337"
+    },
+    {
+      "path": "images/image copy copy copy copy copy.png",
+      "sha256": "57c84ab20f3b82f499081f9e980bf9a49ef48d3e38ffce72f725fce576c1ab8b"
+    },
+    {
+      "path": "images/image copy copy copy copy.png",
+      "sha256": "adac3ced5e6f950d6cd93276753b120c4a5dcc2b92c6bf852ddb9af422762711"
+    },
+    {
+      "path": "images/image copy copy copy.png",
+      "sha256": "cbe9189c04bba266a393bd2b0eab4048385722c3fe564b4ca07d7b8340aa7f3f"
+    },
+    {
+      "path": "images/image copy copy.png",
+      "sha256": "b7c16147303bb643399b896762c62195389982ae78ff583df539035b6d69f60a"
+    },
+    {
+      "path": "images/image copy.png",
+      "sha256": "16715a9825b0be3433316821c5fff24b05263c8bf49313c147dbc8f8abe11d72"
+    },
+    {
+      "path": "images/image.png",
+      "sha256": "16715a9825b0be3433316821c5fff24b05263c8bf49313c147dbc8f8abe11d72"
+    },
+    {
+      "path": "index.html",
+      "sha256": "e9fed8d4fb3a4ff32757ae2e98bc096f7211414916eff181678c650e1d4386c8"
+    }
+  ]
+}
