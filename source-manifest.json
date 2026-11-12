@@ -9,11 +9,11 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "3063e8feea754400e60e26577c287484ada4cceae7f18b231f600374238d58eb"
+    "sha256": "723e0aec18d03719b1d40253392b90a746933a9a469040e256b1b94386fa04e7"
   },
   {
     "path": "README.md",
-    "sha256": "de6d39bc84ed4dcd4af943ef4b39f9d7ff71b32e985e5ba619af19681448e312"
+    "sha256": "1d01e12f1eb7f37d461ef8b12671e23e7009cb47313bec04396ab630e9f30b67"
   },
   {
     "path": "docs/reconciliation-test-mode.md",
@@ -29,11 +29,11 @@
   },
   {
     "path": "package-lock.json",
-    "sha256": "16325094fb3a1cee26a09dc9901996ca71ad500bcf79ef0ab205836804c0bb8c"
+    "sha256": "894e52e7311525a9ec6e739e933cad63c4a84be3fc3dc7a75421bae3c990f687"
   },
   {
     "path": "package.json",
-    "sha256": "836abc0d52ac2726e2b107e3ea8d16038d1eee0c257907d22980e8e5a5399a02"
+    "sha256": "02457c0dd2febef89d391563d4e90c4ba8d00b776f8d2f1947ea989563352b3a"
   },
   {
     "path": "postcss.config.js",
@@ -189,7 +189,7 @@
   },
   {
     "path": "src/components/CompanyBankAccountsView.tsx",
-    "sha256": "b290da16995ddc3eff81bb7ad03d8507fd6e5205fd35bdef45eee570ad57643b"
+    "sha256": "76852e1bf663f2df33adabc379677f8f0ec21c772295a485df16e27fbbac912b"
   },
   {
     "path": "src/components/CompanyBankView.tsx",
@@ -1441,7 +1441,7 @@
   },
   {
     "path": "tests/company-bank-setup.test.mjs",
-    "sha256": "c0d2222967a3ca8dfa893cfdfa8e85ed245656a8d56eaf2c2540491d7e07f188"
+    "sha256": "a72a0001ebd2d6cc2041e7effcbe7e078df5a0af32f045ad36a93a6c9c47c4d6"
   },
   {
     "path": "tests/company-chart-of-accounts.test.mjs",

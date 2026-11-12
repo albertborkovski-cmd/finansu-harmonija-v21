@@ -1,23 +1,23 @@
 {
-  "version": "21.0.0",
+  "version": "21.0.1",
   "releaseDate": "2026-11-12",
   "frozen": true,
-  "sourceCommit": "ff262afb73511fb335b3d8915d6d8894de764919",
-  "sourceTag": "v21",
+  "sourceCommit": "86b744c149481b34d40a5d7149aff308cf88bf19",
+  "sourceTag": "v21.0.1",
   "sourceOrigin": "Latest V20 working-tree snapshot based on 47f86488b21f685566590d96763f13cceef7486a, with V21 release metadata only.",
   "sourceArchive": "source-v21.zip",
-  "sourceArchiveSha256": "404261411236a500014bab9776cf71c33d187bd3f4f3ede63dfa7f777a75766e",
+  "sourceArchiveSha256": "a940e6b26773b09f727e5b011820c19b757076e162ec8fcad4b5eca67f4ea02a",
   "sourceFileCount": 457,
   "nextDevelopmentVersion": "V22",
   "checks": {
     "typecheck": "passed",
     "build": "passed; empty envDir and no VITE environment variables",
     "targetedTests": {
-      "total": 76,
-      "passed": 76,
+      "total": 5,
+      "passed": 5,
       "failed": 0
     },
-    "fullTests": {
+    "previousFullSuite": {
       "total": 1100,
       "passed": 1082,
       "failed": 18,
@@ -27,9 +27,11 @@
         "4 notification-chat-navigation harness failures: import.meta evaluated as CommonJS.",
         "2 module-loading harness failures: notification-details-panel and reconciliation-gl-dialog.",
         "4 reconciliation-received-dialog harness failures: missing useWorkspaceExpansion mock."
-      ]
+      ],
+      "version": "21.0.0",
+      "rerunForHotfix": false
     },
-    "browser": "Deployment startup and asset checks performed after upload; not a complete regression test."
+    "browser": "Published HTML, JS, CSS and source archive hashes are verified after deployment."
   },
   "limitations": [
     "Frontend demonstration only; no secure backend authentication or shared production database.",
@@ -43,12 +45,12 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "assets/CompanyWarehouseView-DtF9AXft.js",
-      "sha256": "91bb046474464dad3774ec0903a966ad25efec1c857e9374c29dbc1849c4eda4"
+      "path": "assets/CompanyWarehouseView-g-juLew7.js",
+      "sha256": "bab650c10b1649c6f9052bf15cd2afff72388e634dfdb55b7e11e643eefd24fd"
     },
     {
-      "path": "assets/FinancialStatementItemsView-B97ZXnmm.js",
-      "sha256": "12d77474c87233b79a0bc6703731ae91ba0071f9dea32663b8be42433c95180c"
+      "path": "assets/FinancialStatementItemsView-BBzyHB4T.js",
+      "sha256": "66f0670a7d68d3fc6cd915c8472aae7438b6e012ba8b3380ee89fffe8ec03bc4"
     },
     {
       "path": "assets/documentActionHistory-BSWadRCQ.js",
@@ -63,12 +65,12 @@
       "sha256": "de138bb56a8ffed910e301b8045a3f2884e8bc61fad1a5278764ec58b9209fb0"
     },
     {
-      "path": "assets/index-VMVbBjOn.js",
-      "sha256": "6c028ae50367632ba1219ac9d74036b61522e00cc01a5ebeaeaf86e88f763bbd"
+      "path": "assets/index-CCUeA_cU.js",
+      "sha256": "026165a7bef701c646aead9e88b1b6d93e71459eebd8f230df4b8fe55e9d4a18"
     },
     {
-      "path": "assets/index.es-DD22KXmN.js",
-      "sha256": "45987a47517bf868d8c811624e68d527e497e1ef368dba60cd1bfa9e640e7c04"
+      "path": "assets/index.es-DUsNbLuc.js",
+      "sha256": "8b93e2ca0df9650d2c1282e348fd594893e7a06b140332ab74429a53cc21b54c"
     },
     {
       "path": "assets/pdf.worker.min-yatZIOMy.mjs",
@@ -156,7 +158,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "e9fed8d4fb3a4ff32757ae2e98bc096f7211414916eff181678c650e1d4386c8"
+      "sha256": "9887250b8a20a3ba27055024811cb17ff43aee97fed89e9be1f50aec21d2685d"
     }
+  ],
+  "previousArtifactCommit": "69ac4d9989da9ca2d1b7aeab781f61407108f267",
+  "changes": [
+    "User-authorized hotfix: remove only the Demo label beside Bank accounts Connection status. Preserve all connection and synchronization behavior."
   ]
 }
